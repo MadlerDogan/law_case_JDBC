@@ -11,7 +11,7 @@ public class SQL_Connection {
         Class.forName("org.postgresql.Driver");
 
         Connection con = DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5432/hukuk_dava_dosya",
+                "jdbc:postgresql://localhost:5432/law_case",
                 "postgres",
                 "123");
 
